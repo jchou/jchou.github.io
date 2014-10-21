@@ -1,0 +1,26 @@
+body {
+  background-color: #f0f0f0;
+  padding: 20px;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  line-height: 1.5em;
+}
+
+.hero-unit {
+  background-color: #0F4D92;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-unit > h1 {
+  letter-spacing: .1em;
+  font-family: 'Constantia', 'Constantia', 'Garamond', 'Georgia', serif;
+  font-variant: small-caps;
+}
+
+.tab-content {
+  background-color: #fff;
+  border: 1px #ddd solid;
+  border-top: 0;
+  margin-top: -20px;
+  padding: 30px;
+}
