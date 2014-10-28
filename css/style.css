@@ -1,7 +1,7 @@
 body {
   background-color: #f0f0f0;
   padding: 20px;
-  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+  font-family: 'Open Sans', Helvetica, sans-serif;
   line-height: 1.5em;
 }
 
@@ -12,8 +12,7 @@ body {
 }
 
 .hero-unit > h1 {
-  letter-spacing: .1em;
-  font-family: 'Constantia', 'Constantia', 'Garamond', 'Georgia', serif;
+  font-family: Constantia, 'Merriweather', serif;
   font-variant: small-caps;
 }
 
