@@ -1,11 +1,21 @@
 $(function(){$("[data-toggle='tooltip']").tooltip();});
 
-var url = document.location.toString();
-if (url.match('#')) {
-    $('.nav-tabs a[href=#'+url.split('#')[1]+']').tab('show');
+function updateTabs() {
+  var url = document.location.toString();
+  if (url.match('#')) {
+      $('.nav-tabs a[href=#'+url.split('#')[1]+']').tab('show') ;
+  }
 }
+updateTabs()
 
-$('.nav-tabs a').on('shown', function (e) {
+// Change hash for page-reload
+$('.nav-tabs a').on('shown.bs.tab', function (e) {
     window.location.hash = e.target.hash;
 })
 
+$('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
+    var target = this.href.split('#');
+    $('.nav a').filter('[href="#'+target[1]+'"]').tab('show');
+})
+
+window.addEventListener('hashchange', updateTabs, false)

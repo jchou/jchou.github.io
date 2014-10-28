@@ -6,16 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href='http://fonts.googleapis.com/css?family=Open+Sans|Merriweather' rel='stylesheet' type='text/css'>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap-responsive.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
   </head>
   <body>
     <div class="container">
-      <div class="hero-unit">
-        <img src="img/jackchou.jpg" class="img-circle">
+      <div class="jumbotron">
+        <img src="img/jackchou.jpg" class="img-circle" data-toggle="tooltip" title="Hi there! :)">
         <h1>Jack Chou</h1>
       </div>
-      <div class="tabbable">
+      <div class="tabbable tabs-left">
         <ul class="nav nav-tabs">
           <li class="active"><a href="#about" data-toggle="tab"><i class="icon-home"></i> about me</a></li>
           <li><a href="#projects" data-toggle="tab"><i class="icon-briefcase"></i> projects</a></li>
@@ -23,114 +22,114 @@
           <li><a href="#contact" data-toggle="tab"><i class="icon-envelope"></i> contact</a></li>
         </ul>
         <div class="tab-content">
-          <div class="tab-pane fade active in" id="about">
+          <div class="tab-pane fade in active" id="about">
             <h2>Hello world!</h2>
               <p>My name is <strong>Jack Chou</strong> and I am currently studying <abbr data-toggle="tooltip" title="Electrical Engineering and Computer Sciences">EECS</abbr> at the <a href="http://eecs.berkeley.edu/" target="_blank">University of California, Berkeley</a>. I'm interested in full stack software engineering and security. I work for UC Berkeley as an Information Security Engineer at <a href="http://rescomp.berkeley.edu/" target="_blank">Student Affairs - Information Technologies</a>.</p>
             <h3>Nice to meet you.</h3>
-            <p>I hail from sunny <a href="https://maps.google.com/?q=San+Diego,+CA" target="_blank">San Diego, CA</a>, but the bay has quickly become my second home. Outside of school and work, I enjoy playing the flute/<a href="http://en.wikipedia.org/wiki/Piccolo" target="_blank">piccolo</a>/trombone, dancing like nobody's watching, meeting new people, learning and trying new things, sleeping, drinking tea, hiking, taking pictures, and using the <a href="http://en.wikipedia.org/wiki/Serial_comma" target="_blank">Oxford comma</a>. I enjoy being an active officer of the <a href="http://ieee.berkeley.edu/" data-toggle="tooltip" title="Institute of Electrical and Electronics Engineers" target="_blank">UC Berkeley student branch of IEEE</a> and <a data-toggle="tooltip" title="with their consent, of course!">taking</a> <a data-toggle="tooltip" title="sometimes embarrassing...">memorable</a> pictures of club events and members. We annually host the <a href="http://ucbstartupfair.com/">UC Berkeley Startup Fair</a>. Check us out!</p>
+            <p>I hail from sunny <a href="https://maps.google.com/?q=San+Diego,+CA" target="_blank">San Diego, CA</a>, but the bay has quickly become my second home. Outside of school and work, I enjoy playing the flute/<a href="http://en.wikipedia.org/wiki/Piccolo" target="_blank">piccolo</a>/trombone, dancing like nobody's watching, meeting new people, learning and trying new things, sleeping, drinking tea, hiking, taking pictures, and using the <a href="http://en.wikipedia.org/wiki/Serial_comma" target="_blank">Oxford comma</a>. I enjoy being an active officer of the <a href="http://ieee.berkeley.edu/" data-toggle="tooltip" title="Institute of Electrical and Electronics Engineers" target="_blank">UC Berkeley student branch of IEEE</a> and <a data-toggle="tooltip" title="with their consent, of course!">taking</a> <a data-toggle="tooltip" title="sometimes embarrassing...">memorable</a> pictures of club events and members. We annually host the <a href="http://ucbstartupfair.com/" target="_blank">UC Berkeley Startup Fair</a>. Check us out!</p>
           </div>
           <div class="tab-pane fade" id="projects">
             <h2>Take a look.</h2>
             <p>Feel free to <a href="#contact" data-toggle="tab">shoot me a message</a> about any of my projects!</p>
             <h3>Personal projects</h3>
             <div class="row">
-              <div class="span3"><strong>SecureMe</strong></div>
-              <div class="span8">Written in Java.</div>
+              <div class="col-md-3"><strong>SecureMe</strong></div>
+              <div class="col-md-9">Written in Java.</div>
             </div>
             <div class="row">
-              <div class="span3"><strong>bwReport</strong></div>
-              <div class="span8">Written in Python.</div>
+              <div class="col-md-3"><strong>bwReport</strong></div>
+              <div class="col-md-9">Written in Python.</div>
             </div>
             <h3>Class projects</h3>
             <h4>CS 168: Networking Architecture and Protocols</h4>
             <div class="row">
-              <div class="span3"><strong>Distance-vector router emulator</strong></div>
-              <div class="span8">Written in Python</div>
+              <div class="col-md-3"><strong>Distance-vector router emulator</strong></div>
+              <div class="col-md-9">Written in Python</div>
             </div>
             <h4>CS 161: Computer Security</h4>
             <div class="row">
-              <div class="span3"><strong>Secure PNG/JPEG parser</strong></div>
-              <div class="span8">Written in C.</div>
+              <div class="col-md-3"><strong>Secure PNG/JPEG parser</strong></div>
+              <div class="col-md-9">Written in C.</div>
             </div>
             <div class="row">
-              <div class="span3"><strong>DNS spoofer</strong></div>
-              <div class="span8">Written in Python.</div>
+              <div class="col-md-3"><strong>DNS spoofer</strong></div>
+              <div class="col-md-9">Written in Python.</div>
             </div>
             <h4>CS 61C: Computer Architecture (Machine Structures)</h4>
             <div class="row">
-              <div class="span3"><strong>Word co-occurrence analyzer</strong></div>
-              <div class="span8">Written in C.</div>
+              <div class="col-md-3"><strong>Word co-occurrence analyzer</strong></div>
+              <div class="col-md-9">Written in C.</div>
             </div>
             <div class="row">
-              <div class="span3"><strong>MIPS instruction set emulator</strong></div>
-              <div class="span8">Written in C.</div>
+              <div class="col-md-3"><strong>MIPS instruction set emulator</strong></div>
+              <div class="col-md-9">Written in C.</div>
             </div>
             <div class="row">
-              <div class="span3"><strong>Image processing and optimization</strong></div>
-              <div class="span8">Written in C.</div>
+              <div class="col-md-3"><strong>Image processing and optimization</strong></div>
+              <div class="col-md-9">Written in C.</div>
             </div>
             <div class="row">
-              <div class="span3"><strong>Processor design</strong></div>
-              <div class="span8">Created using Logisim.</div>
+              <div class="col-md-3"><strong>Processor design</strong></div>
+              <div class="col-md-9">Created using Logisim.</div>
             </div>
             <h4>CS 61B: Data Structures</h4>
             <div class="row">
-              <div class="span3"><strong>Sharks and Fish (simulation)</strong></div>
-              <div class="span8">Written in Java.</div>
+              <div class="col-md-3"><strong>Sharks and Fish (simulation)</strong></div>
+              <div class="col-md-9">Written in Java.</div>
             </div>
             <div class="row">
-              <div class="span3"><strong>Network (the game)</strong></div>
-              <div class="span8">Written in Java.</div>
+              <div class="col-md-3"><strong>Network (the game)</strong></div>
+              <div class="col-md-9">Written in Java.</div>
             </div>
             <h4>CS 61A: Structure and Interpretation of Computer Programs</h4>
             <div class="row">
-              <div class="span3"><strong>Hog (the game)</strong></div>
-              <div class="span8">Written in Python.</div>
+              <div class="col-md-3"><strong>Hog (the game)</strong></div>
+              <div class="col-md-9">Written in Python.</div>
             </div>
             <div class="row">
-              <div class="span3"><strong>Twitter trends</strong></div>
-              <div class="span8">Written in Python.</div>
+              <div class="col-md-3"><strong>Twitter trends</strong></div>
+              <div class="col-md-9">Written in Python.</div>
             </div>
             <div class="row">
-              <div class="span3"><strong>Ants vs. SomeBees</strong></div>
-              <div class="span8">Written in Python.</div>
+              <div class="col-md-3"><strong>Ants vs. SomeBees</strong></div>
+              <div class="col-md-9">Written in Python.</div>
             </div>
             <div class="row">
-              <div class="span3"><strong>Scheme interpreter</strong></div>
-              <div class="span8">Written in Python.</div>
+              <div class="col-md-3"><strong>Scheme interpreter</strong></div>
+              <div class="col-md-9">Written in Python.</div>
             </div>
             <h4>EE 40: Microelectronic Circuits</h4>
             <div class="row">
-              <div class="span3"><strong>Electroencephalogram</strong></div>
-              <div class="span8">Custom PCB.</div>
+              <div class="col-md-3"><strong>Electroencephalogram</strong></div>
+              <div class="col-md-9">Custom PCB.</div>
             </div>
             <h4>EE 20: Systems and Signals</h4>
             <div class="row">
-              <div class="span3"><strong>Acoustic fingerprinting and frequency-based music identifier</strong></div>
-              <div class="span8">Written in MATLAB.</div>
+              <div class="col-md-3"><strong>Acoustic fingerprinting and frequency-based music identifier</strong></div>
+              <div class="col-md-9">Written in MATLAB.</div>
             </div>
           </div>
           <div class="tab-pane fade" id="contact">
             <h2>Let's talk.</h2>
             <div class="row">
-              <div class="span1 text-left">email:</div>
-              <div class="span3"><a href="mailto:jackchou@berkeley.edu" target="_blank">jackchou@berkeley.edu</a></div>
+              <div class="col-xs-1 col-md-1 text-right"><strong>email:</strong></div>
+              <div class="col-xs-12 col-md-11"><a href="mailto:jackchou@berkeley.edu" target="_blank">jackchou@berkeley.edu</a></div>
             </div>
             <div class="row">
-              <div class="span1 text-left">github:</div>
-              <div class="span3"><a href="http://github.com/jschou" target="_blank">github.com/<strong>jschou</strong></a></div>
+              <div class="col-xs-1 col-md-1 text-right"><strong>github:</strong></div>
+              <div class="col-xs-12 col-md-11"><a href="http://github.com/jschou" target="_blank">github.com/<strong>jschou</strong></a></div>
             </div>
             <div class="row">
-              <div class="span1 text-left">linkedin:</div>
-              <div class="span3"><a href="http://linkedin.com/in/jackschou" target="_blank">linkedin.com/<strong>jackschou</strong></a></div>
+              <div class="col-xs-1 col-md-1 text-right"><strong>linkedin:</strong></div>
+              <div class="col-xs-12 col-md-11"><a href="http://linkedin.com/in/jackschou" target="_blank">linkedin.com/<strong>jackschou</strong></a></div>
             </div>
             <div class="row">
-              <div class="span1 text-left">twitter:</div>
-              <div class="span3"><a href="http://twitter.com/jackschou" target="_blank">twitter.com/<strong>jackschou</strong></a></div>
+              <div class="col-xs-1 col-md-1 text-right"><strong>twitter:</strong></div>
+              <div class="col-xs-12 col-md-11"><a href="http://twitter.com/jackschou" target="_blank">twitter.com/<strong>jackschou</strong></a></div>
             </div>
             <div class="row">
-              <div class="span1 text-left">more:</div>
-              <div class="span3"><a href="jack-chou-resume.pdf" target="_blank">see my resume (PDF)</a></div>
+              <div class="col-xs-1 col-md-1 text-right"><strong>more:</strong></div>
+              <div class="col-xs-12 col-md-11"><a href="jack-chou-resume.pdf" target="_blank">see my resume (PDF)</a></div>
             </div>
           </div>
         </div>
@@ -141,4 +140,3 @@
     <script src="js/scripts.js"></script>
   </body>
 </html>
-   
