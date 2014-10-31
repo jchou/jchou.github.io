@@ -1,12 +1,12 @@
 body {
-  background-color: #f0f0f0;
+  background-color: #eee;
   padding: 20px;
   font-family: 'Open Sans', Helvetica, sans-serif;
   line-height: 1.5em;
 }
 
 .jumbotron {
-  background-color: #0F4D92;
+  background-color: #159;
   color: #fff;
   text-align: center;
 }
@@ -21,6 +21,10 @@ body {
   border: 1px #ddd solid;
   border-top: 0;
   padding: 30px;
+}
+
+.nav-tabs > li > a:hover{
+  background-color: #ddd;
 }
 
 .row {
