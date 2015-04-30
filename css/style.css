@@ -23,10 +23,15 @@ body {
   padding: 30px;
 }
 
-.nav-tabs > li > a:hover{
+.nav-tabs > li > a:hover {
   background-color: #ddd;
 }
 
 .row {
   margin: 0;
 }
+
+.face.img-responsive {
+  margin: 0 auto;
+}
+
