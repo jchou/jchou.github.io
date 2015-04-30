@@ -1,0 +1,68 @@
+==================================================================
+https://keybase.io/jchou
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://jchou.github.io
+  * I am jchou (https://keybase.io/jchou) on keybase.
+  * I have a public key with fingerprint 6686 2B5B 6FED 1F4E CA55  E03C C272 4F6B EBE2 A911
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "66862b5b6fed1f4eca55e03cc2724f6bebe2a911",
+            "host": "keybase.io",
+            "key_id": "c2724f6bebe2a911",
+            "kid": "01018569b03f3697c1eeff5d97f0a0019f9d19d1e2fdb9d7cd9e00ab3c918de5b4510a",
+            "uid": "9fe94d44aa05548b498165eb65c57019",
+            "username": "jchou"
+        },
+        "service": {
+            "hostname": "jchou.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1430413546,
+    "expire_in": 157680000,
+    "prev": "231d5a2f19fa29409a69fa26a6bed1c95d4a1b0eec7cecac992733fbb6e8c5ff",
+    "seqno": 4,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.8
+Comment: https://keybase.io/crypto
+
+yMIfAnicbZJtSBRBGMdPLaOjwihKC4QWSqJDZnZ3dndOCg2KXqEPSYjFObM7e7ed
+3p57d1aIaC9QVARGfejdPiRmL3RQRC+m9maZKEFcZVkRIeGXwvPoRYRmraAPDQMz
+8zz/5zfzPPM8nJnj8WYVHFk0PdXYuyTrWXdZwlO+smqkXqC2sUvw1wthNrmYViTI
+nKhjReKCX1AUTREpoorJDGjKTCcIMSDpuqiKsqlQRplIMISCTwjZMTeCYyiJsWLL
+5jZ+CFgGt/5HH550AAighhRMgWRKClZ1yJhpIgOrJiAAQGxiA/LJRNOg2FB1AzMA
+CJV0DDWDISojCAjHJSZx2GRYNmSZEICQrFEZa1BBjCpIRyqnucIYcyKkhnH1dj1k
+J4QGn8BNdZbO3PzdNP51FweteChBf+cTdey4rdvV3BmKx6Mxvxsc3xV11TsYDfzh
+BKgVMXgdeUQdc2KWHRH8kCv1uOWCoSwBGUpIVnwC2xm1HBawXAVSFQ3w4d7D6jhS
+lKCBiGjyKhARywATxd0phBfSgDpGhkwgBYzpqs6/RsdYVCXJpFRhmo5MU3Azq43Y
+gl/mzyRBjoxZwQiJJxwmNNzv2jrFk+X15E7NdjvB452e97c/xuZOmyis8J/Z8vjs
++fwrnkVq173w/lktK0qqhcreQ4vnntjUJhXfod0dQ6O+sKfRIas7cVP6RQ9o7hLG
+dxekcpyNzHcj8zb5vmLo9KnaiLqwtLPnxYJMc+7a1/nPhpdvq50xmH40MLFv5YG2
+qvaGr007Z127usP7vfSBfdUYOPm5/M2CpUta1/fvMfqLhqWaofxbJdFGUPLt6Mdw
+XnJNHyi98GRZtyO1Xvr0fNXe2V8mjh5rz2RO3Rzv0/pzDlePn7yVrD9w+uKGd9fe
+v5o2/0yvtfjg2I9kevTDz7Vzjk8p/64Vpat6bqcqnza3+Defe32ifaSs4+Xo5dS2
+u7gwe3Deut1vsq9X/gIJJzIa
+=ieVj
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jchou
+
+==================================================================
+
