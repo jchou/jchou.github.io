@@ -38,5 +38,7 @@ body {
 
 .face.img-responsive {
   margin: 0 auto;
+  width: 200;
+  height: 200;
 }
 
