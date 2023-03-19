@@ -1,3 +1,7 @@
+const numYears = (new Date() - new Date("2016-08-08T08:00:00-07:00")) / (1000 * 3600 * 24 * 365);
+
+document.getElementById('num-dev-exp-years').innerHTML = `<a data-toggle="tooltip" title="${numYears} to be exact!">${Math.round(numYears * 10) / 10}</a>`;
+
 $(function(){$("[data-toggle='tooltip']").tooltip();});
 
 function updateTabs() {
